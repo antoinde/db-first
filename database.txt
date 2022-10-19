@@ -1,0 +1,26 @@
+CONCESSIONARIA AUTO
+
+// tabella dati:
+
+id:_________________________(Attributi): NOTNULL, UNIQUE, PRIMARY KEY, AUTOINCREMENT, BIGINT
+prezzo:_____________________(Attributi): INT, NOTNULL
+marca:______________________(Attributi): VARCHAR(20) NOT NULL
+modello:____________________(Attributi): VARCHAR(30) NOT NULL
+cilindrata:_________________(Attributi): DECIMAL(9,4) XXXXX,XXXX
+anno_produzione:____________(Attributi): YEAR, NOT NULL
+km:_________________________(Attributi): DECIMAL(8,2) NULL
+foto:_______________________(Attributi): TEXT, NULL
+cavalli:____________________(Attributi): VARCHAR(4), NULL
+alimentazione:______________(Attributi): VARCHAR(20) NOT NULL
+emissioni:__________________(Attributi): VARCHAR(5) .................EURO1, EURO2, EURO3
+numero_porte:_______________(Attributi): TINYINT, NULL
+tipo:_______________________(Attributi): VARCHAR(20), NULL ..................BERLINA, SPIDER,...
+colore:_____________________(Attributi): VARCHAR(15), NULL
+targa:______________________(Attributi): VARCHAR(7), UNIQUE, NOTNULL............XX000YY
+cambio:_____________________(Attributi): VARCHAR(10), NULL
+numero_posti:_______________(Attributi): TINYINT
+revisione_fatta:____________(Attributi): TINYINT, NOT NULL
+unico_proprietario:_________(Attributi): TINYINT, DEFAULT(0), NULL
+ultimo_proprietario:________(Attributi): TEXT, NOTNULL
+posizione_attuale:__________(Attributi): TEXT, NOT NULL
+numero_telaio:______________(Attributi): VARCHAR(17), NOT NULL, UNIQUE
